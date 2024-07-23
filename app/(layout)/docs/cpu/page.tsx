@@ -1,10 +1,7 @@
 import { CodeBlock } from '@/components/code-block'
 import { ContentSection } from '@/components/content-section'
-import { NextButton } from '@/components/next-button'
-import { PrevButton } from '@/components/prev-button'
 import { Strong } from '@/components/strong'
 import { Title } from '@/components/title'
-import { routes } from '@/constant'
 import Image from 'next/image'
 
 const code5 = 'const a = 10 + 20'

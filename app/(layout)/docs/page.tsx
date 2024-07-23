@@ -1,8 +1,6 @@
 import { ContentSection } from '@/components/content-section'
-import { NextButton } from '@/components/next-button'
 import { Subtitle } from '@/components/subtitle'
 import { Title } from '@/components/title'
-import { routes } from '@/constant'
 import { AlertTriangle, Goal } from 'lucide-react'
 
 const Page = () => {

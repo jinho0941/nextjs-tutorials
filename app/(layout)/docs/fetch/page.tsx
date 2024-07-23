@@ -1,16 +1,6 @@
 'use client'
 import { ContentSection } from '@/components/content-section'
-import { NumberText } from '@/components/number-text'
-import { Subtitle } from '@/components/subtitle'
 import { Title } from '@/components/title'
-import { CloudDownload } from 'lucide-react'
-import { DownloadButton } from './_components/download-button'
-import { CodeBlock } from '@/components/code-block'
-import Image from 'next/image'
-import { PrevButton } from '@/components/prev-button'
-import { NextButton } from '@/components/next-button'
-import { routes } from '@/constant'
-
 const Page = () => {
   return (
     <ContentSection>

@@ -1,10 +1,7 @@
 import { ContentSection } from '@/components/content-section'
-import { NextButton } from '@/components/next-button'
 import { NumberText } from '@/components/number-text'
-import { PrevButton } from '@/components/prev-button'
 import { Strong } from '@/components/strong'
 import { Title } from '@/components/title'
-import { routes } from '@/constant'
 
 const Page = () => {
   return (

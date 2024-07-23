@@ -1,8 +1,5 @@
 import { ContentSection } from '@/components/content-section'
-import { PrevButton } from '@/components/prev-button'
-import { NextButton } from '@/components/next-button'
 import { Title } from '@/components/title'
-import { routes } from '@/constant'
 import Image from 'next/image'
 import { Strong } from '@/components/strong'
 

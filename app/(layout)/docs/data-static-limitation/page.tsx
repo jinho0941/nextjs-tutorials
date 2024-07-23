@@ -2,10 +2,7 @@ import { ContentSection } from '@/components/content-section'
 import { Strong } from '@/components/strong'
 import { Todo } from './_components/todo'
 import Image from 'next/image'
-import { PrevButton } from '@/components/prev-button'
-import { NextButton } from '@/components/next-button'
 import { Title } from '@/components/title'
-import { routes } from '@/constant'
 
 const Page = () => {
   return (
