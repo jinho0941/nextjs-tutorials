@@ -46,9 +46,6 @@ const Page = () => {
         <br />
         튜토리얼을 진행하는것에는 문제가 없으니 크게 상관안하셔도 무방합니다.
       </p>
-      <div className='flex justify-end'>
-        <NextButton href={routes.data.path} text={routes.data.name} />
-      </div>
     </ContentSection>
   )
 }

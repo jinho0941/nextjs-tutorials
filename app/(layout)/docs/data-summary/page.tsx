@@ -83,11 +83,6 @@ const Page = () => {
         모호하거나 이해가 잘 안가는 부분이 있다면 gpt를 이용하여 이애하고
         넘어가는것을 추천합니다.
       </p>
-
-      <div className='pt-10 flex justify-between'>
-        <PrevButton href={routes.storage.path} text={routes.storage.name} />
-        <NextButton href={routes.fetch.path} text={routes.fetch.name} />
-      </div>
     </ContentSection>
   )
 }

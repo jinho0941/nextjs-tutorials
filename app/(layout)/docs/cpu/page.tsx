@@ -95,13 +95,6 @@ const Page = () => {
         <Strong text={'최종적으로 cpu에게 명령을 내린다'} />
         라는 것을 이해하면 되겠습니다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton
-          href={routes.computerStructure.path}
-          text={routes.computerStructure.name}
-        />
-        <NextButton href={routes.memory.path} text={routes.memory.name} />
-      </div>
     </ContentSection>
   )
 }

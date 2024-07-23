@@ -29,17 +29,6 @@ const Page = () => {
       <p>
         이 부분은 글로 이해하기는 어려운 개념이니 상세하게 설명해 보겠습니다.
       </p>
-
-      <div className='pt-10 flex justify-between'>
-        <PrevButton
-          href={routes.introduction.path}
-          text={routes.introduction.name}
-        />
-        <NextButton
-          href={routes.dataStatic.path}
-          text={routes.dataStatic.name}
-        />
-      </div>
     </ContentSection>
   )
 }

@@ -56,13 +56,6 @@ const Page = () => {
         이를 이해하기위해서는 앞으로 알아야 할 개념들이 많으니 천천히 공부해
         봅시다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton href={routes.data.path} text={routes.data.name} />
-        <NextButton
-          href={routes.dataStaticLimitation.path}
-          text={routes.dataStaticLimitation.name}
-        />
-      </div>
     </ContentSection>
   )
 }

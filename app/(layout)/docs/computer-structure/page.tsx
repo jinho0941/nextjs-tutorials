@@ -23,13 +23,6 @@ const Page = () => {
         또한 항상 머리를 아프게 하는 친구들이죠.
       </p>
       <p>그러면 지금부터 천천히 하나하나 살펴봅시다.</p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton
-          href={routes.dataStaticLimitation.path}
-          text={routes.dataStaticLimitation.name}
-        />
-        <NextButton href={routes.cpu.path} text={routes.cpu.name} />
-      </div>
     </ContentSection>
   )
 }

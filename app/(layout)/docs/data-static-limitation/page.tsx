@@ -80,16 +80,6 @@ const Page = () => {
         이 내용은 웹 뿐만 아니라 컴퓨터를 다루는 분야라면 뿌리와 같은 개념이기
         때문에 확실하게 이해하고 넘어가는것을 추천합니다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton
-          href={routes.dataStatic.path}
-          text={routes.dataStatic.name}
-        />
-        <NextButton
-          href={routes.computerStructure.path}
-          text={routes.computerStructure.name}
-        />
-      </div>
     </ContentSection>
   )
 }

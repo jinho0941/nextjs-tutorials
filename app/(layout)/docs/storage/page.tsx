@@ -233,13 +233,6 @@ const Page = () => {
         저장되는 데이터는 storage에 저장을 하고 불러온다 라는 흐름을 이해하시면
         되겠습니다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton href={routes.memory.path} text={routes.memory.name} />
-        <NextButton
-          href={routes.dataSummary.path}
-          text={routes.dataSummary.name}
-        />
-      </div>
     </ContentSection>
   )
 }

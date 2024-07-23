@@ -38,13 +38,6 @@ const Page = () => {
         client side fetch, server side fetch라고 부르는게 더 직관적이지않나
         생각합니다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton
-          href={routes.dataSummary.path}
-          text={routes.dataSummary.name}
-        />
-        <NextButton href={routes.fetch.path} text={routes.fetch.name} />
-      </div>
     </ContentSection>
   )
 }

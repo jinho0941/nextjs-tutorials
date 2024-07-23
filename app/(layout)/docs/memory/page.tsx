@@ -189,10 +189,6 @@ const Page = () => {
       <p>
         이는 다음으로 설명할 보조기억장치(storage(HDD, SSD))가 담당하게 됩니다.
       </p>
-      <div className='pt-10 flex justify-between'>
-        <PrevButton href={routes.cpu.path} text={routes.cpu.name} />
-        <NextButton href={routes.storage.path} text={routes.storage.name} />
-      </div>
     </ContentSection>
   )
 }
