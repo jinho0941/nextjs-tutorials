@@ -1,7 +1,6 @@
 import { CodeBlock } from '@/components/code-block'
 import { ContentSection } from '@/components/content-section'
 import { Strong } from '@/components/strong'
-import { Title } from '@/components/title'
 import Image from 'next/image'
 
 const code5 = 'const a = 10 + 20'

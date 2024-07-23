@@ -1,6 +1,5 @@
 'use client'
 import { ContentSection } from '@/components/content-section'
-import { Title } from '@/components/title'
 const Page = () => {
   return (
     <ContentSection>

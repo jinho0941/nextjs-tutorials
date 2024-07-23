@@ -1,6 +1,5 @@
 import { ContentSection } from '@/components/content-section'
 import { Subtitle } from '@/components/subtitle'
-import { Title } from '@/components/title'
 import { AlertTriangle, Goal } from 'lucide-react'
 
 const Page = () => {

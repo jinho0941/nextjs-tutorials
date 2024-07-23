@@ -1,7 +1,6 @@
 import { CodeBlock } from '@/components/code-block'
 import { ContentSection } from '@/components/content-section'
 import { LinkText } from '@/components/link-text'
-import { Title } from '@/components/title'
 import Image from 'next/image'
 
 const code1 = `<div>정적인 데이터 입니다.</div>`

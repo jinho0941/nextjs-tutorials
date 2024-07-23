@@ -1,5 +1,4 @@
 import { ContentSection } from '@/components/content-section'
-import { Title } from '@/components/title'
 import Image from 'next/image'
 
 const Page = () => {

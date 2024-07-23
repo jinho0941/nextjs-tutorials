@@ -2,7 +2,6 @@ import { ContentSection } from '@/components/content-section'
 import { Strong } from '@/components/strong'
 import { Todo } from './_components/todo'
 import Image from 'next/image'
-import { Title } from '@/components/title'
 
 const Page = () => {
   return (

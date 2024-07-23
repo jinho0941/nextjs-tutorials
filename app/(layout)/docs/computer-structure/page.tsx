@@ -1,7 +1,6 @@
 import { ContentSection } from '@/components/content-section'
 import { NumberText } from '@/components/number-text'
 import { Strong } from '@/components/strong'
-import { Title } from '@/components/title'
 
 const Page = () => {
   return (

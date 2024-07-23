@@ -2,7 +2,6 @@ import { CodeBlock } from '@/components/code-block'
 import { ContentSection } from '@/components/content-section'
 import { NumberText } from '@/components/number-text'
 import { Strong } from '@/components/strong'
-import { Title } from '@/components/title'
 import Image from 'next/image'
 import { Exam } from './_components/exam'
 
