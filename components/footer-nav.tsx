@@ -20,6 +20,7 @@ export const FooterNav = () => {
       {prevIndex >= 0 && (
         <PrevButton href={pathList[prevIndex]} text={nameList[prevIndex]} />
       )}
+      {prevIndex < 0 && <div />}
       {nextIndex < routes.length && (
         <NextButton href={pathList[nextIndex]} text={nameList[nextIndex]} />
       )}

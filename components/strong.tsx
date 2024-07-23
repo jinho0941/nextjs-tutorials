@@ -1,7 +1,7 @@
 type Props = {
-  text: string
+  children: React.ReactNode
 }
 
-export const Strong = ({ text }: Props) => {
-  return <strong className='font-bold'>{text}</strong>
+export const Strong = ({ children }: Props) => {
+  return <strong className='font-bold'>{children}</strong>
 }
