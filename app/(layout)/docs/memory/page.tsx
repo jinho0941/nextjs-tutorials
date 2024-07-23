@@ -26,7 +26,6 @@ const code8 = `{todoList.map((todo, index) => (
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'주기억장치(Memory)'} />
       <p>
         memory는 cpu를 설명하면서 잠깐 언급한것 처럼 실질적으로 프로그램이
         실행동안 사용하는 데이터를 저장하는 공간입니다.

@@ -6,7 +6,6 @@ import { Title } from '@/components/title'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'컴퓨터의 구조'} />
       <p>
         컴퓨터를 구성하는 장치는 여러개가 있지만{' '}
         <Strong text={'데이터 관련해서는 크게 3가지가 있습니다.'} />

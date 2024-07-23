@@ -10,7 +10,6 @@ const code6 = 'MOV R1, #10;\nMOV R2, #20;\nADD R3, R1, R2;\nSTR R3, [R0]'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'중앙처리장치(CPU)'} />
       <p>
         cpu는 컴퓨터의 실행(processing)부분을 담당하는 핵심 부품입니다.
         <br />

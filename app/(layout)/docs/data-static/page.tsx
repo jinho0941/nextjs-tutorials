@@ -12,7 +12,6 @@ const code4 = `변경된 데이터 입니다.`
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'정적 데이터'} />
       <p>
         흔히 static 데이터라고 합니다.
         <br />

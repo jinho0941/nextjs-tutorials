@@ -4,7 +4,7 @@ import { Title } from '@/components/title'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'정적 데이터'} />
+      <p>asd</p>
     </ContentSection>
   )
 }

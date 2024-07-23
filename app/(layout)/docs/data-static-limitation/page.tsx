@@ -7,7 +7,6 @@ import { Title } from '@/components/title'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'정적 데이터의 한계점?'} />
       <p>
         정적인 데이터로만 이루어진 페이지의 한계점은 무엇일까요?
         <br />

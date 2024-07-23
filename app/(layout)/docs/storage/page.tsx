@@ -48,8 +48,6 @@ const code3 = `  const saveData = () => {
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'보조기억장치(Storage)'} />
-
       <p>
         이전 글에서 다루었던 memory는 프로그램이 실행되는 동안에 데이터를 저장을
         하고, <br /> 해당 프로그램이 종료되거나 해당 데이터를 프로그램에서

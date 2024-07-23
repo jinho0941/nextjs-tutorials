@@ -6,7 +6,6 @@ import { AlertTriangle, Goal } from 'lucide-react'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'introduction'} />
       <p>
         이 문서는 React 18부터 추가된
         <span className='ml-1 font-bold'>서버 컴포넌트</span>의 등장 이유와 기존

@@ -4,7 +4,6 @@ import { Title } from '@/components/title'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'패치(fetch)'} />
       <p>
         이전 글에서 fetch가 어떤식으로 이루어지는지 그림으로 보았을 것입니다.
         <br />

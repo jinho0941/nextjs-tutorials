@@ -5,7 +5,6 @@ import Image from 'next/image'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'데이터(data)'} />
       <Image src={'/img4.jpg'} alt={'img4'} width={600} height={400} />
       <p>
         패치가 무엇인지 알려면 우선 정적 데이터, 동적 데이터가 무엇인지 구분을

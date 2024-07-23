@@ -6,7 +6,6 @@ import { Strong } from '@/components/strong'
 const Page = () => {
   return (
     <ContentSection>
-      <Title title={'데이터 흐름 정리'} />
       <p>
         이때까지 컴퓨터가 명령을 어떻게 처리하고, 데이터를 어떻게 불러오며 또
         저장을 어떻게 하는지 알아보았습니다.
@@ -52,11 +51,7 @@ const Page = () => {
       <p>위 그림과 같아집니다.</p>
       <p>여기서 server가 중간에 생기면 그림은 아래와 같아집니다.</p>
       <Image src={'/src21.png'} alt={'img1'} width={1000} height={500} />
-      <p>
-        위 그림이 대략적인 fetch의 진행과정입니다.
-        <br />
-        network부분이 www.google.com에 접근한다고 생각하면됩니다.
-      </p>
+
       <p className='text-muted-foreground'>
         해당 그림을 gpt4o 에 복사붙여넣기 하면 gpt가 잘 설명해줍니다.
       </p>
@@ -67,14 +62,16 @@ const Page = () => {
         <br />위 그림과 동일하게 진행이 되겠지요.
       </p>
       <p>
-        제가 이해한 것이 많은것이 빠지고 완전 정확하지는 않지만 전반적인{' '}
-        <Strong text={'데이터의 생명주기(Data Lifecycle)'} />를 이해하기에는
-        충분하다고 생각합니다.
+        제가 이해한 것이 많은것이 빠지고 완전 정확하지는 않지만,
+        <br />
+        전반적인 <Strong text={'데이터의 생명주기(Data Lifecycle)'} />를
+        이해하기에는 충분하다고 생각합니다.
       </p>
 
       <p>
         개인적으로 이런 데이터 생명주기를 알고 개발을 하는거와 모르고 개발을
-        하는것은 <Strong text={'천지차이'} />
+        하는것은 <br />
+        <Strong text={'천지차이'} />
         라는 말이 어울릴 정도로 중요한 개념이라 생각하기 떄문에,
         <br />
         모호하거나 이해가 잘 안가는 부분이 있다면 gpt를 이용하여 이애하고
