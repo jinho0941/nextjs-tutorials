@@ -8,12 +8,8 @@ export const routes = [
     name: '데이터(data)',
   },
   {
-    path: '/docs/data-static',
-    name: '정적 데이터',
-  },
-  {
-    path: '/docs/data-static-limitation',
-    name: '정적 데이터 한계점',
+    path: '/docs/memory-data-limitation',
+    name: '메모리 데이터의 한계점',
   },
   {
     path: '/docs/computer-structure',
@@ -37,7 +33,7 @@ export const routes = [
   },
   {
     path: '/docs/static-dynamic-data',
-    name: '동적 데이터, 정적 데이터',
+    name: '내부 데이터, 외부 데이터',
   },
   {
     path: '/docs/fetch',
