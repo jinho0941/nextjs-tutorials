@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# next js tutorials
 
-## Getting Started
+### site link: https://nextjs-tutorials-phi.vercel.app/
 
-First, run the development server:
+### 이 문서는 react 18의 server component와 next js 의 ssr의 학습을 돕기위해 제작하였습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image](https://github.com/user-attachments/assets/be047355-02ff-4b1e-9bcc-9341b5cc6846)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+위와 같이 여러 챕터로 구성되어 있으며, 선행되어야 할 학습내용들을 핵심내용을 간략하게 추려 설명하고 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![image](https://github.com/user-attachments/assets/3c8611c2-42ad-44d9-9e91-af9b75f8321c)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+이해를 돕기 위한 이미지들이 있으며,
 
-## Learn More
+![image](https://github.com/user-attachments/assets/bfededf3-3b30-4a08-b64d-aebdea4fe819)
 
-To learn more about Next.js, take a look at the following resources:
+또한 인터렉션이 있는 예시를 통해 독자가 글을 읽다가 흥미가 떨어지지 않게 중간중간에 배치를 하였습니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+개념이해를 목적으로 제작하였으며, 코드래벨에서 상세하게 내용을 다루지는 않습니다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://github.com/user-attachments/assets/cb5699f6-6d78-4abf-a1e4-49bc1bc800da)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+후반부에는 웹의 역사와 csr, ssr을 연결시켜서 설명하였으며 사용하는 이유 중점으로 이야기를 하였습니다.
