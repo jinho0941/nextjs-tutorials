@@ -16,7 +16,7 @@ export const FooterNav = () => {
   const nextIndex = currentIndex + 1
 
   return (
-    <div className='pt-10 flex justify-between px-4'>
+    <div className='pt-10 flex justify-between md:px-4'>
       {prevIndex >= 0 && (
         <PrevButton href={pathList[prevIndex]} text={nameList[prevIndex]} />
       )}

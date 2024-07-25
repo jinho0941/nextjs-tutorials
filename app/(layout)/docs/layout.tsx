@@ -6,8 +6,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Sidebar />
-      <section className='pl-[280px] pb-10'>
-        <div className='p-8'>
+      <section className='md:pl-[280px] pb-10'>
+        <div className='md:p-8 p-4'>
           <Title />
           {children}
         </div>

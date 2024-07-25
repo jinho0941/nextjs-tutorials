@@ -15,7 +15,7 @@ export const Sidebar = () => {
   const pathname = usePathname()
 
   return (
-    <aside className='fixed overflow-y-scroll w-[280px] h-full scrollbar-hide border-r'>
+    <aside className='fixed overflow-y-scroll w-[280px] h-full scrollbar-hide border-r md:block hidden'>
       <div className='mt-4 pl-4'>
         {links.map((item, index) => (
           <Button

@@ -32,11 +32,59 @@ export const routes = [
     name: '데이터 흐름 정리',
   },
   {
-    path: '/docs/static-dynamic-data',
+    path: '/docs/inter-outer-data',
     name: '내부 데이터, 외부 데이터',
+  },
+  {
+    path: '/docs/inter-outer-data-in-code',
+    name: '내부 데이터, 외부 데이터(코드)',
   },
   {
     path: '/docs/fetch',
     name: '패치(fetch)',
+  },
+  {
+    path: '/docs/csr',
+    name: 'csr(client side rendering)',
+  },
+  {
+    path: '/docs/csr-flow',
+    name: 'csr flow',
+  },
+  {
+    path: '/docs/ssr',
+    name: 'ssr(server side rendering)',
+  },
+  {
+    path: '/docs/ssr-flow',
+    name: 'ssr flow',
+  },
+  {
+    path: '/docs/csr-ssr',
+    name: 'ssr, csr, 그리고 csr + ssr',
+  },
+  {
+    path: '/docs/web',
+    name: '웹의 첫 등장',
+  },
+  {
+    path: '/docs/web-server',
+    name: '웹 서버',
+  },
+  {
+    path: '/docs/web-ssr',
+    name: 'ssr의 등장',
+  },
+  {
+    path: '/docs/web-csr',
+    name: 'csr의 등장',
+  },
+  {
+    path: '/docs/ssr-and-csr',
+    name: 'ssr + csr',
+  },
+  {
+    path: '/docs/final',
+    name: '마치며..',
   },
 ]

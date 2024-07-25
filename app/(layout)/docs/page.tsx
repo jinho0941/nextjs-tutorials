@@ -11,8 +11,6 @@ const Page = () => {
         fetch와의 차이점을 예제와 개념 설명을 하여 이해를 돕기 위해 제작
         되었습니다.
         <br />
-        또한, Next 14의<span className='ml-1 font-bold'>서버 액션</span>을
-        이용해 클라이언트 인터랙션을 처리하는 방법을 설명합니다.
       </p>
       <Subtitle icon={AlertTriangle} subtitle={'주의사항'} />
       <p>
@@ -24,24 +22,13 @@ const Page = () => {
       </p>
       <Subtitle icon={Goal} subtitle={'목표'} />
       <p>
-        최종 결과물은 간단한 todo 앱을 만드는 것입니다.
-        <br /> 목적은 CRUD에 대해 어떻게 데이터 패치가 이루어지는지, 그리고
-        액션에 따른 서버와 클라이언트 데이터 동기화가 어떻게 이루어지는지를
-        이해하는 것입니다.
-      </p>
-      <a
-        href='https://todo-client-eu649ziyj-aas-projects-34bc0981.vercel.app/'
-        target='_blank'
-        className='text-sky-500 underline'
-      >
-        결과물 link
-      </a>
-      <p className='mt-6 text-muted-foreground'>
-        서버 부하를 막기 위해 한 컴퓨터당 제공해주는 api call 횟수는 하루에
-        <span className='ml-1 font-bold underline'>100회</span>입니다.
+        csr과 ssr이 어떻게 이루어지는지 이해하고, 그 차이점을 익히는 것입니다.
         <br />
-        튜토리얼을 진행하는것에는 문제가 없으니 크게 상관안하셔도 무방합니다.
+        최종적으로는 react server component와 next js(13)을 왜 쓰는지 이해해
+        봅시다.
       </p>
+
+      <p>우선 주요 키워드인 data에 대해 짚고 넘어가겠습니다.</p>
     </ContentSection>
   )
 }

@@ -15,8 +15,8 @@ export const NextButton = ({ href, text }: Props) => {
       asChild
     >
       <Link href={href}>
-        <span className='text-xl font-semibold'>{text}</span>
-        <ChevronRight />
+        <span className='md:text-xl text-base font-semibold'>{text}</span>
+        <ChevronRight className='md:h-6 md:w-6 h-4 w-4' />
       </Link>
     </Button>
   )

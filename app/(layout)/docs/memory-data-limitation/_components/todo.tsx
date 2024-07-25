@@ -62,6 +62,9 @@ export const Todo = () => {
               </FormItem>
             )}
           />
+          <Button type='submit' className='w-full'>
+            생성 하기
+          </Button>
         </form>
       </Form>
       {todoList.map((todo, index) => (
