@@ -84,7 +84,7 @@ const Page = () => {
         code={'let { todo } = axios.get("/api/todo") // {todo: "아자"}'}
         language='javascript'
       />
-      <p>위 처럼 작성을 하면 todo에는 초기값이 "아자" 가 됩니다.</p>
+      <p>위 처럼 작성을 하면 todo에는 초기값이 아자 가 됩니다.</p>
       <CodeBlock code={'todo = 123'} language='javascript' />
       <p>
         그 다음에 위처럼 다시 123으로 재할당하면 어떻게 되나요?
@@ -101,7 +101,7 @@ const Page = () => {
       </p>
       <CodeBlock code={code} />
       <p>
-        위에 코드는 express의 서버 로직인데 /todo에 접근을 하면 todo: "아자" 의
+        위에 코드는 express의 서버 로직인데 /todo에 접근을 하면 todo: 아자 의
         값을 가지고 있는 json을 반환해줍니다.
       </p>
 
@@ -110,12 +110,12 @@ const Page = () => {
       />
       <p>해당 json은 browser에서 위와 같은 형태로 받아오게 됩니다.</p>
       <p>
-        이때 당연하게도 todo의 변수 초기값은 이전에 설명했던것 처럼 "아자" 가
+        이때 당연하게도 todo의 변수 초기값은 이전에 설명했던것 처럼 아자 가
         됩니다.
       </p>
       <p>하지만 여기서 서버 반환값을 바꾸게 되면 어떻게 될까요?</p>
       <CodeBlock code={code1} />
-      <p>위 처럼 "아자123" 으로 바꾸고 다시 초기화를 하게 되면</p>
+      <p>위 처럼 아자123 으로 바꾸고 다시 초기화를 하게 되면</p>
       <CodeBlock
         code={'let { todo } = axios.get("/api/todo") // {todo: "아자123"}'}
       />

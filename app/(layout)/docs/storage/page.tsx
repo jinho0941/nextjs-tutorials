@@ -211,13 +211,13 @@ const Page = () => {
         </span>
       </p>
       <p>
-        이렇게 되면 storage에 data라는 key값의 value가 '저장 데이터'로 저장이
+        이렇게 되면 storage에 data라는 key값의 value가 저장 데이터 로 저장이
         됩니다.
       </p>
       <p>이 상태에서 새로고침을 하면</p>
       <CodeBlock code={code2} />
       <p>다시 이 부분이 실행이 되고</p>
-      <p>이제는 'data'의 값이 존재하니 저장 데이터가 savedData에 할당되며</p>
+      <p>이제는 data의 값이 존재하니 저장 데이터가 savedData에 할당되며</p>
       <CodeBlock code={code1} language='html' />
       <p>저장된 데이터는: 저장 데이터</p>
       <p>이렇게 저장된 데이터를 볼수있게 됩니다.</p>

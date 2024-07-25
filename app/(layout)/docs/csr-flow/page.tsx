@@ -78,13 +78,13 @@ const Page = () => {
       </p>
       <CodeBlock code={code} />
       <p>
-        코드를 보면 todo라는 변수에 api.get("todo")라는 비동기 함수를
+        코드를 보면 todo라는 변수에 api.get(todo)라는 비동기 함수를
         실행시킵니다.
       </p>
       <p>그러면 다시 해당 url에 request, response가 주고받게 됩니다.</p>
       <Image src={'/src31.png'} alt={'img'} width={700} height={700} />
       <p>
-        이제 todo라는 변수에 todo: 아자 라는 json이 할당되지만 편의상 '아자'라는
+        이제 todo라는 변수에 todo: 아자 라는 json이 할당되지만 편의상 아자 라는
         string이 저장되었다고 합시다.
       </p>
       <p>그럼 client(browser)의 memory는 아래와 같이 변하게 됩니다.</p>

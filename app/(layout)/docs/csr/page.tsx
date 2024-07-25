@@ -147,7 +147,7 @@ const Page = () => {
       <p>
         todo는 아직 빈값(undefined)로 초기화가 되었고
         <br />
-        interData는 '나는 내부 데이터'라는 string으로 초기화가 되었습니다.
+        interData는 나는 내부 데이터 라는 string으로 초기화가 되었습니다.
       </p>
       <p>이 상태에서 렌더가 일어나니 위에 빈값들이 먼저 나오게 되는거죠.</p>
       <CodeBlock code={code7} />
