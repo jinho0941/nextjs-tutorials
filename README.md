@@ -3,6 +3,7 @@
 ### site link: https://nextjs-tutorials-phi.vercel.app/
 
 ### 이 문서는 react 18의 server component와 next js 의 ssr의 학습을 돕기위해 제작하였습니다.
+### 하지만 후반부 설명이 올바르지않아 폐기하였습니다.
 
 ![image](https://github.com/user-attachments/assets/be047355-02ff-4b1e-9bcc-9341b5cc6846)
 
